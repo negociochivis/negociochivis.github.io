@@ -353,14 +353,14 @@
     }
   
 /* NIEVES*/
-/* Reset */
-* {
+
+ {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base */
+
 body.body-nieves {
   font-family: 'Segoe UI', sans-serif;
   background-color: #ffe4ec;
@@ -370,7 +370,6 @@ body.body-nieves {
   flex-direction: column;
 }
 
-/* Header */
 .header {
   background-color: #e91e63;
   color: white;
@@ -382,13 +381,11 @@ body.body-nieves {
   font-size: 2.5em;
 }
 
-/* Main Content */
 .main-content {
   flex: 1;
   padding: 2em 1em;
 }
 
-/* Grid */
 .grid-nieves {
   display: flex;
   flex-wrap: wrap;
@@ -422,7 +419,7 @@ body.body-nieves {
   color: #e91e63;
 }
 
-/* Footer */
+
 .footer {
   text-align: center;
   padding: 2em 0;
@@ -522,7 +519,7 @@ h2 {
 
 /* huaraches */
 
- {
+ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -603,7 +600,6 @@ body.body-huaraches {
   font-size: 1.1em;
 }
 
-/* Footer */
 .footer {
   background-color: #264653;
   padding: 2em 0;
@@ -624,7 +620,6 @@ body.body-huaraches {
   background-color: #d65a3f;
 }
 
-......
 body {
 font-family: Arial, sans-serif;
 background-color: #f4f4f4;
@@ -667,9 +662,6 @@ margin: 5px 0;
 font-weight: bold;
 color: #28a745;
 }
-
- 
-  
 
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -848,7 +840,7 @@ color: #28a745;
   background-color: #e76f51;
 }
 
- /* Reset básico */
+ 
 * {
   margin: 0;
   padding: 0;
@@ -864,7 +856,6 @@ body.body-hamburguesas {
   min-height: 100vh;
 }
 
-/* Header */
 .header {
   background-color: #ff7043;
   color: white;
@@ -876,13 +867,13 @@ body.body-hamburguesas {
   font-size: 2.5em;
 }
 
-/* Main Content */
+
 .main-content {
   flex: 1;
   padding: 2em 1em;
 }
 
-/* Grid */
+
 .hamburguesas-grid {
   display: flex;
   flex-wrap: wrap;
@@ -890,7 +881,7 @@ body.body-hamburguesas {
   gap: 30px;
 }
 
-/* Card */
+
 .hamburguesa-card {
   background-color: white;
   border-radius: 12px;
@@ -938,7 +929,8 @@ body.body-hamburguesas {
 .footer__button:hover {
   background-color: #e64a19;
 }
-@media (max-width: 600px) {
+@media (max-width: 600px) 
+{
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -1003,9 +995,11 @@ body.body-hamburguesas {
   }
 
   header.abc {
-    position: static;
+    
     text-align: center;
     margin: 20px 0;
+    top: 50%;
+        right: 10px;
   }
 
      .noo {
